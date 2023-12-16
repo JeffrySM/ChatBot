@@ -146,7 +146,8 @@ boton_enviar = tk.Button(ventana, text="Enviar", command=enviar_mensaje,bg='#4CA
 boton_enviar.pack()
 
 #Agregar un logo a la ventana
-logo_image = tk.PhotoImage(file='C:/Users/Jeffry/Documents/CELSYS/DevPython/2040946.png')  # Reemplaza 'path/to/your/logo.png' con la ruta de tu imagen
+
+
 logo_label = tk.Label(ventana, image=logo_image, bg='#D3D3D3')
 logo_label.pack()
 #Mostrar la imagen en un widget Label y colocarlo en la esquina superior izquierda
